@@ -1,0 +1,16 @@
+{
+    "name": "Personal Dev Container",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "workspaceFolder": "/workspace",
+    "mounts": [
+      "source=${localWorkspaceFolder},target=/workspace,type=bind"
+    ],
+    "extensions": [
+      "ms-python.python",
+      "ms-vscode.cpptools",
+      "ms-azuretools.vscode-docker"
+    ]
+  }
+  
